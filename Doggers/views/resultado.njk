@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do Quiz</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Altura total da janela */
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #2a9df4; /* Azul mais escuro */
+        }
+
+        .resultado {
+            background-color: #ffffff; /* Fundo branco para o resultado */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px; /* Largura fixa */
+        }
+
+        .nota {
+            font-size: 1.5em;
+            margin: 15px 0;
+            color: #2a9df4; /* Azul para a nota */
+        }
+
+        a {
+            text-decoration: none;
+            color: #2a9df4; /* Azul para o link */
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        a:hover {
+            color: #007bbf; /* Azul mais escuro ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Resultado do Quiz</h1>
+    <div class="resultado">
+        <p>Você acertou <span class="nota">{{ nota }}</span> de <span class="nota">{{ totalPerguntas }}</span> perguntas.</p>
+        <p>Nota final: <span class="nota">{{ notaFinal }}%</span></p>
+    </div>
+    <a href="/form">Voltar ao Formulário</a>
+    <a href="/maiores-notas">Maiores notas</a>
+</body>
+</html>

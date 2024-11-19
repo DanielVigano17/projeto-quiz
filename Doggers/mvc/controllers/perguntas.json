@@ -1,0 +1,102 @@
+{
+    "1": {
+        "pergunta": "O que é uma variável em programação?",
+        "alternativas": {
+            "a": "Um espaço na memória para armazenar dados",
+            "b": "Um tipo de laço de repetição",
+            "c": "Uma função que imprime na tela",
+            "d": "Uma estrutura condicional"
+        },
+        "correta": "a"
+    },
+    "2": {
+        "pergunta": "O que significa HTML?",
+        "alternativas": {
+            "a": "Hyper Text Markup Language",
+            "b": "High Transfer Machine Learning",
+            "c": "Hyper Transfer Memory Log",
+            "d": "Host Tag Multi Layer"
+        },
+        "correta": "a"
+    },
+    "3": {
+        "pergunta": "Para que serve a tag <head> no HTML?",
+        "alternativas": {
+            "a": "Contém metadados sobre o documento",
+            "b": "Define o conteúdo visível da página",
+            "c": "Carrega imagens no site",
+            "d": "Define o rodapé da página"
+        },
+        "correta": "a"
+    },
+    "4": {
+        "pergunta": "O que é uma função em JavaScript?",
+        "alternativas": {
+            "a": "Um bloco de código reutilizável que realiza uma tarefa específica",
+            "b": "Uma variável que armazena números",
+            "c": "Uma estrutura de repetição",
+            "d": "Um tipo de dado primitivo"
+        },
+        "correta": "a"
+    },
+    "5": {
+        "pergunta": "Qual a diferença entre == e === em JavaScript?",
+        "alternativas": {
+            "a": "== compara valores, === compara valores e tipos",
+            "b": "=== é mais rápido que ==",
+            "c": "== é usado para loops, === para condicionais",
+            "d": "=== só funciona em números"
+        },
+        "correta": "a"
+    },
+    "6": {
+        "pergunta": "O que é um loop em programação?",
+        "alternativas": {
+            "a": "Uma estrutura que repete um bloco de código enquanto uma condição for verdadeira",
+            "b": "Uma função que gera números aleatórios",
+            "c": "Um tipo de comentário em código",
+            "d": "Um erro de sintaxe"
+        },
+        "correta": "a"
+    },
+    "7": {
+        "pergunta": "O que é uma estrutura de dados?",
+        "alternativas": {
+            "a": "Um jeito organizado de armazenar e gerenciar dados",
+            "b": "Um tipo de função em linguagens de programação",
+            "c": "Um erro de compilação",
+            "d": "Uma biblioteca externa de código"
+        },
+        "correta": "a"
+    },
+    "8": {
+        "pergunta": "O que significa SQL?",
+        "alternativas": {
+            "a": "Structured Query Language",
+            "b": "Simple Queue List",
+            "c": "System Query List",
+            "d": "Standard Query Layout"
+        },
+        "correta": "a"
+    },
+    "9": {
+        "pergunta": "Para que serve o comando SELECT no SQL?",
+        "alternativas": {
+            "a": "Selecionar dados de um banco de dados",
+            "b": "Excluir dados do banco de dados",
+            "c": "Atualizar informações no banco de dados",
+            "d": "Criar uma nova tabela"
+        },
+        "correta": "a"
+    },
+    "10": {
+        "pergunta": "O que é uma biblioteca em programação?",
+        "alternativas": {
+            "a": "Conjunto de funções ou classes reutilizáveis",
+            "b": "Uma base de dados de imagens",
+            "c": "Uma ferramenta de testes automáticos",
+            "d": "Um tipo de sistema operacional"
+        },
+        "correta": "a"
+    }
+}

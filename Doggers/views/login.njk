@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Altura total da janela */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #2a9df4; /* Azul mais escuro */
+        }
+
+        form {
+            background-color: #ffffff; /* Fundo branco para o formulário */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Largura fixa do formulário */
+        }
+
+        label {
+            margin-bottom: 5px;
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%; /* Largura total */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #2a9df4; /* Bordas azul */
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #007bbf; /* Azul mais intenso ao focar */
+            outline: none; /* Remove contorno padrão */
+        }
+
+        button {
+            background-color: #2a9df4; /* Azul para o botão */
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%; /* Largura total */
+        }
+
+        button:hover {
+            background-color: #007bbf; /* Azul mais escuro ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário Login</h1>
+    <form id="test-form" method="post" action="/cadastro">
+        
+        <label for="id">Email:</label>
+        <input type="text" id="email" name="email" required><br>
+
+        <label for="val1">Senha :</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

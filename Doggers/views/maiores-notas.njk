@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Maiores Notas</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height : 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #2a9df4; /* Azul mais escuro */
+        }
+
+        table {
+            width: 80%; /* Largura da tabela */
+            border-collapse: collapse; /* Remove espaçamento entre as células */
+            margin-bottom: 20px;
+            background-color: #ffffff; /* Fundo branco para a tabela */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e1e1e1; /* Linha entre as linhas */
+        }
+
+        th {
+            background-color: #2a9df4; /* Azul para o cabeçalho */
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #e6f7ff; /* Cor de fundo ao passar o mouse */
+        }
+
+        a {
+            text-decoration: none;
+            color: #2a9df4; /* Azul para o link */
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #007bbf; /* Azul mais escuro ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>5 Maiores Notas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Usuário</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for nota in notas %}
+                <tr>
+                    <td>{{ nota.email }}</td>
+                    <td>{{ nota.nota }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/form">Voltar ao Formulário</a>
+</body>
+</html>
