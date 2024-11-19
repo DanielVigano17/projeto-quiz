@@ -6,4 +6,4 @@
 * Vinicíus Martins de Oliveira
 * Gustavo Santos Rocha
 
-##Turma : **DSM2**
+## Turma : DSM2
